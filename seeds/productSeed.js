@@ -4,7 +4,7 @@ const Product = require("../models/product");
 
 mongoose.connect(
   process.env.MONGODB_URI ||
-  "mongodb://localhost/TipTipNails"
+  "mongodb://localhost/TipTopNails"
 );
 
 const productSeed = [
