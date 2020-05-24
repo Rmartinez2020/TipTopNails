@@ -1,13 +1,13 @@
 /* === Dependencies === */
 import React from "react";
 
-function Product() {
+function Product(props) {
     return (
         <>
             <div className="card" style={{ width: "18rem" }}>
                 <div className="card-body">
-                    <h5 className="card-title">about title</h5>
-                    <p className="card-text">Add something later</p>
+                    <h5 className="card-title float-left">{props.name}</h5>
+                    <p className="card-text float-right">{props.price}</p>
                 </div>
             </div>
         </>
