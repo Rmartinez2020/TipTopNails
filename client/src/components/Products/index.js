@@ -1,7 +1,7 @@
 /* === Dependencies === */
 import React from "react";
 
-function About() {
+function Product() {
     return (
         <>
             <div className="card" style={{ width: "18rem" }}>
@@ -14,4 +14,4 @@ function About() {
     )
 };
 
-export default About;
+export default Product;

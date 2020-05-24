@@ -1,7 +1,7 @@
 /* === Dependencies === */
 import React from "react";
 import Announcements from "../components/Announcements";
-import About from "../components/About";
+import Product from "../components/Product";
 import Contact from "../components/Contact";
 
 function Homepage() {
