@@ -5,7 +5,7 @@ module.exports = {
 			Product.find({})
 				.then(products => {
 					console.log(products);
-					return res.status(200).json({products})
+					return res.status(200).json(products)
 				})
 	}
 };

@@ -1,10 +1,19 @@
 /* === Dependencies === */
-import React from "react";
+import React, {useState, useEffect} from "react";
 import Announcements from "../components/Announcements";
 import Product from "../components/Product";
 import Contact from "../components/Contact";
 
 function Homepage() {
+    /* Set up the State */
+    const [prodcuts, setProducts] = useState([]);
+
+    useEffect(()=> {
+        fetch('api/products/all')
+  .then(response => response.json())
+  .then(data => setProducts(data));
+    }, [])
+
     return (
         <div className="container-fluid">
             <div className="row" id="top">
@@ -19,7 +28,9 @@ function Homepage() {
             <div className="row">
                 <div className="col-sm-12 text-center">
                     <h1 id="about">Pricing</h1>
-                        
+                        {prodcuts.map(product => {
+                            return <Product name={product.name} price={product.price}/>
+                        })}
                 </div>
             </div>
             <div className="row">
