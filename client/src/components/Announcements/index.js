@@ -7,11 +7,11 @@ import React from "react";
 function Announcements() {
     return (
         <>
-            <div class="card" style={{width: "18rem"}}>
+            <div class="card" style={{ width: "18rem" }}>
                 <div class="card-body">
-                    <h5 class="card-title">Covid 19</h5>
+                    <h5 class="card-title">New Covid-19 Rules</h5>
                     <h6 class="card-subtitle mb-2 text-muted">Posted on May 24, 2020</h6>
-                    <p class="card-text">add something later</p>
+                    <p class="card-text">To protect our customers and employees, we require all customers to wear a face mask. If you do not have a face mask we will provide you with one. We hope you understand!</p>
                 </div>
             </div>
         </>
