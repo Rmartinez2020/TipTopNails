@@ -28,9 +28,40 @@ function Homepage() {
             <div className="row">
                 <div className="col-sm-12 text-center">
                     <h1 id="about">Pricing</h1>
-                        {prodcuts.map(product => {
+                    <div className="row">
+                        <div className="col-sm-12 col-md-6">
+                            <h2>Manicure/Pedicure</h2>
+                            {prodcuts.filter(product =>{
+                                return product.category === "Manicure Pedicure"
+                            }).map(product => {
                             return <Product name={product.name} price={product.price}/>
                         })}
+                        </div>
+                        <div className="col-sm-12 col-md-6">
+                            <h2>Nail Care</h2>
+                            {prodcuts.filter(product =>{
+                                return product.category === "Nail Care"
+                            }).map(product => {
+                            return <Product name={product.name} price={product.price}/>
+                        })}
+                        </div>
+                        <div className="col-sm-12 col-md-6">
+                            <h2>Healthy Nails</h2>
+                            {prodcuts.filter(product =>{
+                                return product.category === "Healthy Nails"
+                            }).map(product => {
+                            return <Product name={product.name} price={product.price}/>
+                        })}
+                        </div>
+                        <div className="col-sm-12 col-md-6">
+                            <h2>Waxing</h2>
+                            {prodcuts.filter(product =>{
+                                return product.category === "Waxing"
+                            }).map(product => {
+                            return <Product name={product.name} price={product.price}/>
+                        })}
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className="row">
