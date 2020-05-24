@@ -1,8 +1,10 @@
 /* === Dependencies === */
 const path = require("path");
 const router = require("express").Router();
+const productRoutes = require("./product");
 
 /* === Routes === */
+router.use("/products", productRoutes);
 
 /* For anything else, render the html page */
 router.use(function(req, res) {
