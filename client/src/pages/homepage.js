@@ -1,7 +1,8 @@
 /* === Dependencies === */
 import React from "react";
 import Announcements from "../components/Announcements";
-import About from "../components/About"
+import About from "../components/About";
+import Contact from "../components/Contact";
 
 function Homepage() {
     return (
@@ -29,6 +30,7 @@ function Homepage() {
             <div className="row">
                 <div className="col-sm-12 text-center">
                     <h1 id="contact">Contact</h1>
+                    <Contact />
                 </div>
             </div>
         </div>
