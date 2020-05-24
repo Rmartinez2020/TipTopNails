@@ -17,7 +17,7 @@ function Nav() {
                             <NavLink className="nav-link" to="#announcements">Announcements</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="#about">About Us</NavLink>
+                            <NavLink className="nav-link" to="#pricing">Pricing</NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink className="nav-link" to="#gallery">Gallery</NavLink>

@@ -18,8 +18,8 @@ function Homepage() {
             </div>
             <div className="row">
                 <div className="col-sm-12 text-center">
-                    <h1 id="about">About Us</h1>
-                        <About />
+                    <h1 id="about">Pricing</h1>
+                        
                 </div>
             </div>
             <div className="row">
