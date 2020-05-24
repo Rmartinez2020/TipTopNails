@@ -15,7 +15,7 @@ function Homepage() {
     }, [])
 
     return (
-        <div className="container-fluid">
+        <div className="container">
             <div className="row" id="top">
                 <h1>Place an image or title or something</h1>
             </div>

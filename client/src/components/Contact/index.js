@@ -10,11 +10,11 @@ function Contact() {
                 </div>
                 <div className="col-sm-12 col-md-4">
                     Address:
-                    772 21st St, Vero Beach, FL 32960
+                    770 21st St, Vero Beach, FL 32960
                 </div>
                 <div className="col-sm-12 col-md-4">
                     Business Hours:
-                    Monday-Saturday 9:00am - 6:30pm
+                    Monday-Saturday 9:30am - 6:30pm
                 </div>
             </div>
         </>
