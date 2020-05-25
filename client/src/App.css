@@ -10,6 +10,20 @@ body {
 #top{
   margin: 100px 0;
 }
+.gal{
+  max-height: 250px;
+  max-width: 250px;
+}
+.horizontalScroll{
+  max-height: 250px;
+  max-width: 100%;
+  display: flex;
+  overflow: auto;
+}
+
+.horizontalScroll::-webkit-scrollbar {
+  display: none;
+}
 .product{
   background-color: transparent;
   border:none;

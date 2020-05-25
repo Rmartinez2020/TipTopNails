@@ -20,7 +20,7 @@ function Homepage() {
         <div className="container">
             <div className="row" id="top">
                 <div className="col-sm-12 text-center">
-                <img src={process.env.PUBLIC_URL+ "/images/logo.png"} className="img-fluid"/>
+                <img src={process.env.PUBLIC_URL+ "/images/logo.png"} className="img-fluid" alt="logo"/>
                 </div>
             </div>
             <div className="row" id="announcements">
@@ -74,9 +74,12 @@ function Homepage() {
                 <div className="col-sm-12 text-center">
                     <h1>Gallery</h1>
                     <hr/>
+                    <div className="horizontalScroll">
                     {Images.map((image, i) => {
                         return <Gallery src={image.src} alt={image.alt} key={i}/>
                     })}
+                    </div>
+                    
                 </div>
             </div>
             <div className="row" id="contact">
