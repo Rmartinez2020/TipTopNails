@@ -14,7 +14,7 @@ function Homepage() {
         fetch('api/products/all')
   .then(response => response.json())
   .then(data => setProducts(data));
-    }, [])
+    }, []);
 
     return (
         <div className="container">
@@ -33,7 +33,7 @@ function Homepage() {
                 <div className="col-sm-12 text-center">
                     <h1 id="about">Pricing</h1>
                     <div className="row">
-                        <div className="col-sm-12 col-md-6">
+                        <div className="col-sm-12 col-md-6 text-center">
                             <h2>Manicure/Pedicure</h2>
                             {prodcuts.filter(product =>{
                                 return product.category === "Manicure Pedicure"
@@ -41,7 +41,7 @@ function Homepage() {
                             return <Product name={product.name} price={product.price} key={i}/>
                         })}
                         </div>
-                        <div className="col-sm-12 col-md-6">
+                        <div className="col-sm-12 col-md-6 text-center">
                             <h2>Nail Care</h2>
                             {prodcuts.filter(product =>{
                                 return product.category === "Nail Care"
@@ -49,7 +49,7 @@ function Homepage() {
                             return <Product name={product.name} price={product.price} key={i}/>
                         })}
                         </div>
-                        <div className="col-sm-12 col-md-6">
+                        <div className="col-sm-12 col-md-6 text-center">
                             <h2>Healthy Nails</h2>
                             {prodcuts.filter(product =>{
                                 return product.category === "Healthy Nails"
@@ -57,7 +57,7 @@ function Homepage() {
                             return <Product name={product.name} price={product.price} key={i}/>
                         })}
                         </div>
-                        <div className="col-sm-12 col-md-6">
+                        <div className="col-sm-12 col-md-6 text-center">
                             <h2>Waxing</h2>
                             {prodcuts.filter(product =>{
                                 return product.category === "Waxing"
