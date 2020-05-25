@@ -37,32 +37,32 @@ function Homepage() {
                             <h2>Manicure/Pedicure</h2>
                             {prodcuts.filter(product =>{
                                 return product.category === "Manicure Pedicure"
-                            }).map(product => {
-                            return <Product name={product.name} price={product.price}/>
+                            }).map((product, i) => {
+                            return <Product name={product.name} price={product.price} key={i}/>
                         })}
                         </div>
                         <div className="col-sm-12 col-md-6">
                             <h2>Nail Care</h2>
                             {prodcuts.filter(product =>{
                                 return product.category === "Nail Care"
-                            }).map(product => {
-                            return <Product name={product.name} price={product.price}/>
+                            }).map((product,i)=> {
+                            return <Product name={product.name} price={product.price} key={i}/>
                         })}
                         </div>
                         <div className="col-sm-12 col-md-6">
                             <h2>Healthy Nails</h2>
                             {prodcuts.filter(product =>{
                                 return product.category === "Healthy Nails"
-                            }).map(product => {
-                            return <Product name={product.name} price={product.price}/>
+                            }).map((product,i) => {
+                            return <Product name={product.name} price={product.price} key={i}/>
                         })}
                         </div>
                         <div className="col-sm-12 col-md-6">
                             <h2>Waxing</h2>
                             {prodcuts.filter(product =>{
                                 return product.category === "Waxing"
-                            }).map(product => {
-                            return <Product name={product.name} price={product.price}/>
+                            }).map((product,i) => {
+                            return <Product name={product.name} price={product.price} key={i}/>
                         })}
                         </div>
                     </div>
@@ -71,8 +71,8 @@ function Homepage() {
             <div className="row">
                 <div className="col-sm-12 text-center">
                     <h1 id="gallery">Gallery</h1>
-                    {Images.map(image => {
-                        return <Gallery src={image.src} alt={image.alt}/>
+                    {Images.map((image, i) => {
+                        return <Gallery src={image.src} alt={image.alt} key={i}/>
                     })}
                 </div>
             </div>
