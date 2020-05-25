@@ -26,12 +26,14 @@ function Homepage() {
             <div className="row" id="announcements">
                 <div className="col-sm-12 text-center">
                     <h1 >Announcements</h1>
+                    <hr/>
                     <Announcements />
                 </div>
             </div>
             <div className="row" id="pricing">
                 <div className="col-sm-12 text-center">
                     <h1>Pricing</h1>
+                    <hr/>
                     <div className="row">
                         <div className="col-sm-12 col-md-6 text-center">
                             <h2>Manicure/Pedicure</h2>
@@ -71,6 +73,7 @@ function Homepage() {
             <div className="row" id="gallery">
                 <div className="col-sm-12 text-center">
                     <h1>Gallery</h1>
+                    <hr/>
                     {Images.map((image, i) => {
                         return <Gallery src={image.src} alt={image.alt} key={i}/>
                     })}
@@ -79,6 +82,7 @@ function Homepage() {
             <div className="row" id="contact">
                 <div className="col-sm-12 text-center">
                     <h1>Contact</h1>
+                    <hr/>
                     <Contact />
                 </div>
             </div>
