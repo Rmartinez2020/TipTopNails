@@ -1,34 +1,34 @@
 [
     {
-        "src":"/images/image1",
+        "src":"/images/image1.jpg",
         "alt":"Painted Nails"
     },
     {
-        "src":"/images/image2",
+        "src":"/images/image2.jpg",
         "alt":"Painted Nails"
     },
     {
-        "src":"/images/image3",
+        "src":"/images/image3.jpg",
         "alt":"Painted Nails"
     },
     {
-        "src":"/images/image4",
+        "src":"/images/image4.jpg",
         "alt":"Painted Nails"
     },
     {
-        "src":"/images/image5",
+        "src":"/images/image5.jpg",
         "alt":"Painted Nails"
     },
     {
-        "src":"/images/image6",
+        "src":"/images/image6.png",
         "alt":"Painted Nails"
     },
     {
-        "src":"/images/image7",
+        "src":"/images/image7.jpg",
         "alt":"Painted Nails"
     },
     {
-        "src":"/images/image8",
+        "src":"/images/image8.jpg",
         "alt":"Painted Nails"
     }
 ]

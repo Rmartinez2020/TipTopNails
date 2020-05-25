@@ -3,6 +3,8 @@ import React, {useState, useEffect} from "react";
 import Announcements from "../components/Announcements";
 import Product from "../components/Product";
 import Contact from "../components/Contact";
+import Gallery from "../components/Gallery";
+import Images from "../images.json";
 
 function Homepage() {
     /* Set up the State */
@@ -67,6 +69,9 @@ function Homepage() {
             <div className="row">
                 <div className="col-sm-12 text-center">
                     <h1 id="gallery">Gallery</h1>
+                    {Images.map(image => {
+                        return <Gallery src={image.src} alt={image.alt}/>
+                    })}
                 </div>
             </div>
             <div className="row">
