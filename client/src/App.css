@@ -7,6 +7,12 @@ h5{
 body {
   background-image: url("./pages/sun.jpg");
 }
+.product{
+  background-color: transparent;
+  border:none;
+  border-radius: 0%;
+  border-top: 1px dashed;
+}
 .App {
   text-align: center;
 }
