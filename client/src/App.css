@@ -30,6 +30,9 @@ body {
   border-radius: 0%;
   border-top: 1px dashed;
 }
+.hours{
+  font-size: 200%;
+}
 .App {
   text-align: center;
 }

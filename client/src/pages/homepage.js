@@ -36,7 +36,7 @@ function Homepage() {
                     <hr/>
                     <div className="row">
                         <div className="col-sm-12 col-md-6 text-center">
-                            <h2>Manicure/Pedicure</h2>
+                            <h3>Manicure/Pedicure</h3>
                             {prodcuts.filter(product =>{
                                 return product.category === "Manicure Pedicure"
                             }).map((product, i) => {
@@ -44,7 +44,7 @@ function Homepage() {
                         })}
                         </div>
                         <div className="col-sm-12 col-md-6 text-center">
-                            <h2>Nail Care</h2>
+                            <h3>Nail Care</h3>
                             {prodcuts.filter(product =>{
                                 return product.category === "Nail Care"
                             }).map((product,i)=> {
@@ -52,7 +52,7 @@ function Homepage() {
                         })}
                         </div>
                         <div className="col-sm-12 col-md-6 text-center">
-                            <h2>Healthy Nails</h2>
+                            <h3>Healthy Nails</h3>
                             {prodcuts.filter(product =>{
                                 return product.category === "Healthy Nails"
                             }).map((product,i) => {
@@ -60,7 +60,7 @@ function Homepage() {
                         })}
                         </div>
                         <div className="col-sm-12 col-md-6 text-center">
-                            <h2>Waxing</h2>
+                            <h3>Waxing</h3>
                             {prodcuts.filter(product =>{
                                 return product.category === "Waxing"
                             }).map((product,i) => {
