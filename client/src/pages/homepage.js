@@ -19,7 +19,7 @@ function Homepage() {
     return (
         <div className="container">
             <div className="row" id="top">
-                <h1>Place an image or title or something</h1>
+                <img src={process.env.PUBLIC_URL+ "/images/logo.png"}/>
             </div>
             <div className="row">
                 <div className="col-sm-12 text-center">
