@@ -33,6 +33,11 @@ body {
 .hours{
   font-size: 200%;
 }
+.large{
+  height: fit-content;
+  width: 80%;
+  font-size: x-large;
+}
 .App {
   text-align: center;
 }
