@@ -23,15 +23,15 @@ function Homepage() {
                 <img src={process.env.PUBLIC_URL+ "/images/logo.png"} className="img-fluid"/>
                 </div>
             </div>
-            <div className="row">
+            <div className="row" id="announcements">
                 <div className="col-sm-12 text-center">
                     <h1 >Announcements</h1>
                     <Announcements />
                 </div>
             </div>
-            <div className="row">
+            <div className="row" id="pricing">
                 <div className="col-sm-12 text-center">
-                    <h1 id="about">Pricing</h1>
+                    <h1>Pricing</h1>
                     <div className="row">
                         <div className="col-sm-12 col-md-6 text-center">
                             <h2>Manicure/Pedicure</h2>
@@ -68,17 +68,17 @@ function Homepage() {
                     </div>
                 </div>
             </div>
-            <div className="row">
+            <div className="row" id="gallery">
                 <div className="col-sm-12 text-center">
-                    <h1 id="gallery">Gallery</h1>
+                    <h1>Gallery</h1>
                     {Images.map((image, i) => {
                         return <Gallery src={image.src} alt={image.alt} key={i}/>
                     })}
                 </div>
             </div>
-            <div className="row">
+            <div className="row" id="contact">
                 <div className="col-sm-12 text-center">
-                    <h1 id="contact">Contact</h1>
+                    <h1>Contact</h1>
                     <Contact />
                 </div>
             </div>
