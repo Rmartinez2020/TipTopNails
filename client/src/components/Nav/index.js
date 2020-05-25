@@ -6,7 +6,12 @@ function Nav() {
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-                <NavLink className="navbar-brand" to="#top">Tip Top Nails</NavLink>
+                <NavLink className="navbar-brand" to="#top" data-toggle="collapse" data-target=".navbar-collapse.show" scroll={el => {
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                }}>Tip Top Nails</NavLink>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -15,11 +20,11 @@ function Nav() {
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item">
                             <NavLink className="nav-link bad-text" to="#announcements" scroll={el => {
-                                const offset = 52;
+                                const offset = 46;
                                 const bodyRect = document.body.getBoundingClientRect().top;
                                 const elementRect = el.getBoundingClientRect().top;
                                 const elementPosition = elementRect - bodyRect;
-                                const offsetPosition = elementPosition - offset;
+                                const offsetPosition = elementPosition + offset;
 
                                 window.scrollTo({
                                     top: offsetPosition,
@@ -29,11 +34,11 @@ function Nav() {
                         </li>
                         <li className="nav-item">
                             <NavLink className="nav-link bad-text" to="#pricing" scroll={el => {
-                                const offset = 52;
+                                const offset = 46;
                                 const bodyRect = document.body.getBoundingClientRect().top;
                                 const elementRect = el.getBoundingClientRect().top;
                                 const elementPosition = elementRect - bodyRect;
-                                const offsetPosition = elementPosition - offset;
+                                const offsetPosition = elementPosition + offset;
 
                                 window.scrollTo({
                                     top: offsetPosition,
@@ -43,11 +48,11 @@ function Nav() {
                         </li>
                         <li className="nav-item">
                             <NavLink className="nav-link bad-text" to="#gallery" scroll={el => {
-                                const offset = 52;
+                                const offset = 46;
                                 const bodyRect = document.body.getBoundingClientRect().top;
                                 const elementRect = el.getBoundingClientRect().top;
                                 const elementPosition = elementRect - bodyRect;
-                                const offsetPosition = elementPosition - offset;
+                                const offsetPosition = elementPosition + offset;
 
                                 window.scrollTo({
                                     top: offsetPosition,
@@ -57,11 +62,11 @@ function Nav() {
                         </li>
                         <li className="nav-item">
                             <NavLink className="nav-link bad-text" to="#contact" scroll={el => {
-                                const offset = 52;
+                                const offset = 46;
                                 const bodyRect = document.body.getBoundingClientRect().top;
                                 const elementRect = el.getBoundingClientRect().top;
                                 const elementPosition = elementRect - bodyRect;
-                                const offsetPosition = elementPosition - offset;
+                                const offsetPosition = elementPosition + offset;
 
                                 window.scrollTo({
                                     top: offsetPosition,

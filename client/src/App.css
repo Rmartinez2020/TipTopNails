@@ -7,6 +7,9 @@
 body {
   background-image: url("./pages/sun.jpg");
 }
+#top{
+  margin: 100px 0;
+}
 .product{
   background-color: transparent;
   border:none;
