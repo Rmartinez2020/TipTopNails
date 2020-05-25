@@ -21,7 +21,7 @@ function Contact() {
                     <div className="float-left text-right hours bad-text">
                     Monday:<span> 9:30am - 6:30pm</span><br />
                     Tuesday:<span> 9:30am - 6:30pm</span><br />
-                    wednesday:<span> 9:30am - 6:30pm</span><br />
+                    Wednesday:<span> 9:30am - 6:30pm</span><br />
                     Thursday:<span> 9:30am - 6:30pm</span><br />
                     Friday:<span> 9:30am - 6:30pm</span><br />
                     Saturday:<span> 9:30am - 6:30pm</span><br />
