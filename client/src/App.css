@@ -1,3 +1,9 @@
+*{
+  font-family: 'Euphoria Script', cursive;
+}
+h5{
+  font-family: 'Bad Script', cursive;
+}
 body {
   background-image: url("./pages/sun.jpg");
 }

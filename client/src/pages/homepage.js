@@ -19,7 +19,9 @@ function Homepage() {
     return (
         <div className="container">
             <div className="row" id="top">
-                <img src={process.env.PUBLIC_URL+ "/images/logo.png"}/>
+                <div className="col-sm-12 text-center">
+                <img src={process.env.PUBLIC_URL+ "/images/logo.png"} className="img-fluid"/>
+                </div>
             </div>
             <div className="row">
                 <div className="col-sm-12 text-center">
