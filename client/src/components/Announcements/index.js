@@ -9,7 +9,7 @@ function Announcements() {
         <>
             <div className="card" style={{ width: "18rem" }}>
                 <div className="card-body">
-                    <h5 className="card-title bad-text">New Covid-<span className="cursive-number bad-text">19</span> Rules</h5>
+                    <h5 className="card-title bad-text">New Covid-<span className="bigger-text bad-text">19</span> Rules</h5>
                     <h6 className="card-subtitle mb-2 text-muted">Posted on May 24, 2020</h6>
                     <p className="card-text bad-text announcement">To protect our customers and employees, we require all customers to wear a face mask. If you do not have a face mask we will provide you with one. We hope you understand!</p>
                 </div>
