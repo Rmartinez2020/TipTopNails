@@ -25,14 +25,14 @@ function Homepage() {
             </div>
             <div className="row" id="announcements">
                 <div className="col-sm-12 text-center">
-                    <h1 >Announcements</h1>
+                    <h1 className="font-weight-bold">Announcements</h1>
                     <hr/>
                     <Announcements />
                 </div>
             </div>
             <div className="row" id="pricing">
                 <div className="col-sm-12 text-center">
-                    <h1>Pricing</h1>
+                    <h1 className="font-weight-bold">Pricing</h1>
                     <hr/>
                     <div className="row">
                         <div className="col-sm-12 col-md-6 text-center">
@@ -72,7 +72,7 @@ function Homepage() {
             </div>
             <div className="row" id="gallery">
                 <div className="col-sm-12 text-center">
-                    <h1>Gallery</h1>
+                    <h1 className="font-weight-bold">Gallery</h1>
                     <hr/>
                     <div className="horizontalScroll">
                     {Images.map((image, i) => {
@@ -84,7 +84,7 @@ function Homepage() {
             </div>
             <div className="row" id="contact">
                 <div className="col-sm-12 text-center">
-                    <h1>Contact</h1>
+                    <h1 className="font-weight-bold">Contact</h1>
                     <hr/>
                     <Contact />
                 </div>
