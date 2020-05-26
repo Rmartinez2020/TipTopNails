@@ -39,6 +39,11 @@ const productSeed = [
     category: "Manicure Pedicure"
   },
   {
+    name: "Gel Pedicure",
+    price: 46,
+    category: "Manicure Pedicure"
+  },
+  {
     name: "Super Pedicure",
     price: 47,
     category: "Manicure Pedicure"

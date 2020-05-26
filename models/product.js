@@ -6,7 +6,7 @@ const Schema = mongoose.Schema;
 /* === Define Schema === */
 const Product = new Schema({
     name: String,
-    price: Number,
+    price: String,
     category: String
 });
 
