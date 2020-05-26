@@ -4,6 +4,9 @@
 .bad-text{
   font-family: 'Bad Script', cursive;
 }
+.cursive-number{
+  font-size: 25px;
+}
 body {
   background-image: url("./pages/sun.jpg");
 }
@@ -37,6 +40,9 @@ body {
   height: fit-content;
   width: 80%;
   font-size: x-large;
+}
+.announcement{
+  font-size: 20px;
 }
 .App {
   text-align: center;
