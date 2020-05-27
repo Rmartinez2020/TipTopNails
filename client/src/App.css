@@ -27,11 +27,15 @@ body {
 .horizontalScroll::-webkit-scrollbar {
   display: none;
 }
+.category{
+  font-weight: bold;
+  border-bottom: solid thin lightgray;
+}
 .product{
   background-color: transparent;
   border:none;
   border-radius: 0%;
-  border-top: 1px dashed;
+  /* border-top: 1px dashed; */
 }
 .hours{
   font-size: 200%;
