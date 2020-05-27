@@ -59,7 +59,7 @@ const productSeed = [
     category: "Nail Care"
   },
   {
-    name: "Pink & White Full Set",
+    name: "Pink & White F/S",
     price: "50 & up",
     category: "Nail Care"
   },
