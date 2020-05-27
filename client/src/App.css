@@ -17,11 +17,11 @@ body {
   font-size: x-large;
 }
 .gal{
-  max-height: 250px;
-  max-width: 250px;
+  max-height: 300px;
+  max-width: 300px;
 }
 .horizontalScroll{
-  max-height: 250px;
+  max-height: 300px;
   max-width: 100%;
   display: flex;
   overflow: auto;

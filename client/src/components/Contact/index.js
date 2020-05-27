@@ -13,7 +13,7 @@ function Contact() {
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-4 my-2">
                     <h3>Address</h3><br/>
-                    <p className="bigger-text">772 21st St, Vero Beach, FL 32960</p>
+                    <p className="bigger-text">770 21st St, Vero Beach, FL 32960</p>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3534.4950570480105!2d-80.39103948486337!3d27.640151182819736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88de5ee0635bb1cb%3A0x7cad6160298a2dd1!2s770%2021st%20St%2C%20Vero%20Beach%2C%20FL%2032960!5e0!3m2!1sen!2sus!4v1590428363025!5m2!1sen!2sus" width="300" height="300" frameBorder="0" style={{border:0}} allowFullScreen="" aria-hidden="false" tabIndex="0" title="directions"></iframe>
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-4 text-center bad-text my-2">
