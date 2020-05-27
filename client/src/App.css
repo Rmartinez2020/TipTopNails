@@ -27,6 +27,23 @@ body {
 .horizontalScroll::-webkit-scrollbar {
   display: none;
 }
+.announcement-card{
+  min-width: 300px;
+  max-width: 300px;
+  min-height: fit-content;
+  
+}
+
+.horizontalAnnouncements{
+  min-height: fit-content;
+  max-width: 100%;
+  display: flex;
+  overflow: auto;
+}
+
+.horizontalAnnouncements::-webkit-scrollbar {
+  display: none;
+}
 .category{
   font-weight: bold;
   border-bottom: solid thin lightgray;
