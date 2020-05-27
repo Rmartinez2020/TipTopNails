@@ -6,7 +6,7 @@ function Nav() {
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-                <NavLink className="navbar-brand" to="#top" data-toggle="collapse" data-target=".navbar-collapse.show" scroll={el => {
+                <NavLink className="navbar-brand main-link" to="#top" data-toggle="collapse" data-target=".navbar-collapse.show" scroll={el => {
                     window.scrollTo({
                         top: 0,
                         behavior: 'smooth'
@@ -20,7 +20,7 @@ function Nav() {
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item">
                             <NavLink className="nav-link bad-text" to="#announcements" scroll={el => {
-                                const offset = 46;
+                                const offset = 40;
                                 const bodyRect = document.body.getBoundingClientRect().top;
                                 const elementRect = el.getBoundingClientRect().top;
                                 const elementPosition = elementRect - bodyRect;
@@ -34,7 +34,7 @@ function Nav() {
                         </li>
                         <li className="nav-item">
                             <NavLink className="nav-link bad-text" to="#pricing" scroll={el => {
-                                const offset = 46;
+                                const offset = 43;
                                 const bodyRect = document.body.getBoundingClientRect().top;
                                 const elementRect = el.getBoundingClientRect().top;
                                 const elementPosition = elementRect - bodyRect;
@@ -48,7 +48,7 @@ function Nav() {
                         </li>
                         <li className="nav-item">
                             <NavLink className="nav-link bad-text" to="#gallery" scroll={el => {
-                                const offset = 46;
+                                const offset = 45;
                                 const bodyRect = document.body.getBoundingClientRect().top;
                                 const elementRect = el.getBoundingClientRect().top;
                                 const elementPosition = elementRect - bodyRect;
@@ -62,7 +62,7 @@ function Nav() {
                         </li>
                         <li className="nav-item">
                             <NavLink className="nav-link bad-text" to="#contact" scroll={el => {
-                                const offset = 46;
+                                const offset = 42;
                                 const bodyRect = document.body.getBoundingClientRect().top;
                                 const elementRect = el.getBoundingClientRect().top;
                                 const elementPosition = elementRect - bodyRect;

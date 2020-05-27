@@ -13,6 +13,9 @@ body {
 #top{
   margin: 100px 0;
 }
+.main-link{
+  font-size: x-large;
+}
 .gal{
   max-height: 250px;
   max-width: 250px;
