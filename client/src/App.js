@@ -8,7 +8,8 @@ import {
   Switch
 } from 'react-router-dom';
 import Homepage from "./pages/homepage";
-import Nav from "./components/Nav"
+import Nav from "./components/Nav";
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Router>
         <Nav />
         <Homepage />
+        <Footer />
       </Router>
     </>
   );

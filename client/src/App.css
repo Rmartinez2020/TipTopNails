@@ -44,6 +44,14 @@ body {
 .announcement{
   font-size: 20px;
 }
+.footer-button{
+  width: fit-content;
+  height: 100%;
+
+}
+.ig-link{
+  color:purple;
+}
 .App {
   text-align: center;
 }
