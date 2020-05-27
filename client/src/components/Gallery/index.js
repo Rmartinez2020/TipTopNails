@@ -3,7 +3,7 @@ import React from "react";
 function Gallery (props) {
     return(
         <>
-        <img src={process.env.PUBLIC_URL+ props.src} alt={props.alt} className="img-fluid float-left m-2 gal"></img>
+        <img src={process.env.PUBLIC_URL+ props.src} alt={props.alt} className="img-fluid img-thumbnail float-left m-2 gal"></img>
         </>
     )
 }
