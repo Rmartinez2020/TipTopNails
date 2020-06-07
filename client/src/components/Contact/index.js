@@ -6,7 +6,7 @@ function Contact() {
         <>
             <div className="row mb-5">
                 <div className="col-sm-12 col-md-6 col-lg-4 my-2">
-                    <h3>Have Question or Need an Appointment?</h3>
+                    <h3>Have Questions or Need an Appointment?</h3>
                     <a href="tel:772-794-2302">
                         <button className="btn btn-success large">
                             Call Us: 772-794-2302</button></a>
