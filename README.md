@@ -1,5 +1,7 @@
 # Tip Top Nails
-This is a website made for a local nails salon that displays basic information about the business for customers.
+As a customer, I want to be able to view the menu for the salon and easily call and get directions.
+
+This site was made for a small local nail salon with a mobile first UI.
 
 ## Live Site
 [Check Out Tip Top Nails Website](https://www.tiptopnailsvero.com)
