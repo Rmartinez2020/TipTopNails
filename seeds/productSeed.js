@@ -3,8 +3,7 @@ const mongoose = require("mongoose");
 const Product = require("../models/product");
 
 mongoose.connect(
-  process.env.MONGODB_URI ||
-  "mongodb://localhost/TipTopNails"
+  "mongodb+srv://admin:TipTopPass@tiptop.gfmtu.mongodb.net/TipTopNails?retryWrites=true&w=majority"
 );
 
 const productSeed = [
