@@ -26,7 +26,7 @@ app.use(function (req, res, next) {
   next(err);
 });
 /* === Mongoose Connection === */
-mongoose.connect(process.env.MONGODB_URI || "mongodb://root:root12@ds147207.mlab.com:47207/heroku_zswfggn0", { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/TipTopNails", { useNewUrlParser: true, useUnifiedTopology: true });
 
 /* === Error Handling === */
 
