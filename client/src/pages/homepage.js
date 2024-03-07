@@ -48,20 +48,40 @@ function Homepage() {
                         </div>
                         <div className="col-sm-12 col-md-6 text-center">
                             <div className="category">
-                                <h3>Nail Care</h3>
+                                <h3>Acrylic</h3>
                             </div>
                             {prodcuts.filter(product => {
-                                return product.category === "Nail Care"
+                                return product.category === "Acrylic"
                             }).map((product, i) => {
                                 return <Product name={product.name} price={product.price} key={i} />
                             })}
                         </div>
                         <div className="col-sm-12 col-md-6 text-center">
                             <div className="category">
-                                <h3>Healthy Nails</h3>
+                                <h3>***</h3>
                             </div>
                             {prodcuts.filter(product => {
-                                return product.category === "Healthy Nails"
+                                return product.category === "***"
+                            }).map((product, i) => {
+                                return <Product name={product.name} price={product.price} key={i} />
+                            })}
+                        </div>
+                        <div className="col-sm-12 col-md-6 text-center">
+                            <div className="category">
+                                <h3>Polish Change</h3>
+                            </div>
+                            {prodcuts.filter(product => {
+                                return product.category === "Polish Change"
+                            }).map((product, i) => {
+                                return <Product name={product.name} price={product.price} key={i} />
+                            })}
+                        </div>
+                         <div className="col-sm-12 col-md-6 text-center">
+                            <div className="category">
+                                <h3>Pink & White Dip</h3>
+                            </div>
+                            {prodcuts.filter(product => {
+                                return product.category === "Pink & White Dip"
                             }).map((product, i) => {
                                 return <Product name={product.name} price={product.price} key={i} />
                             })}
@@ -72,6 +92,16 @@ function Homepage() {
                             </div>
                             {prodcuts.filter(product => {
                                 return product.category === "Waxing"
+                            }).map((product, i) => {
+                                return <Product name={product.name} price={product.price} key={i} />
+                            })}
+                        </div>
+                                <div className="col-sm-12 col-md-6 text-center">
+                            <div className="category">
+                                <h3>Additional Services</h3>
+                            </div>
+                            {prodcuts.filter(product => {
+                                return product.category === "Additional Services"
                             }).map((product, i) => {
                                 return <Product name={product.name} price={product.price} key={i} />
                             })}
